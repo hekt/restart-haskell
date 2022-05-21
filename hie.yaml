@@ -1,0 +1,10 @@
+cradle:
+  cabal:
+    - path: "src"
+      component: "lib:restart-haskell"
+
+    - path: "app/Main.hs"
+      component: "restart-haskell:exe:restart-haskell"
+
+    - path: "test"
+      component: "restart-haskell:test:restart-haskell-test"
